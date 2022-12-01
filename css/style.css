@@ -423,6 +423,80 @@ h2 {
    font-weight: bold;
 }
 
+.our-menu-food{
+   padding: 2rem 7%;
+   background-color: var(--black);
+}
+.our-menu-food h1{
+   color: var(--peru);
+   font-size: 45px;
+   text-align: center;
+   padding: 0.5rem 0;
+}
+
+.main-menu-food{
+   margin-top: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+.inner-menu-food{
+   flex: 1 1 300px;
+}
+.menu-food-content{
+   width:100%;
+}
+.menu-food-content img{
+   float:left; 
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding: 5px;
+}
+
+.menu-food-text{
+   padding: 2rem 2rem;
+}
+.menu-food-text h2{
+   color: var(--btn-color);
+   font-size: 30px;
+   text-align: center;
+}
+.menu-food-text p{
+   color:white;
+   font-size:20px;
+   margin: 2rem 0;
+   text-align: center;
+}
+.menu-food-text p span{
+   color: #e58f00;
+   padding: 0.5rem 1.5rem;
+   transition: 0.3s;
+   cursor: pointer;
+   text-align: center;
+}
+.menu-food-text p:hover span{
+   border: 1px solid white;
+   background: var(--btn-color);
+   color: white;
+   transform: scale(1.1);
+}
+.before{
+   background-color: #1d1d23;
+   padding: 2rem 0;
+}
+.before{
+   width: 100%;
+}
+.before img{
+
+   width: 100%;
+   object-fit: cover;
+}
+
+
 .order{
    background-color: #bf854d;
 }

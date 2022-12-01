@@ -80,4 +80,17 @@ var swiper = new Swiper(".menu-slider", {
       el: ".swiper-pagination",
       clickable: true,
    },
+   
 });
+
+const sr = ScrollReveal ({
+   distance : '45px',
+   duration : 3000,
+   reset : false,
+ })
+
+
+ sr.reveal('.menu-food-content',{ delay:250, origin:'top' })
+ sr.reveal('.menu-food-text',{ delay:250, origin:'top' })
+ sr.reveal('.food-main-content',{ delay:250, origin:'bottom' })
+ sr.reveal('.before',{ delay:250, origin:'bottom' })
