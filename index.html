@@ -18,6 +18,7 @@
 
    <link rel="stylesheet" href="css/style.css">
 
+
    <meta property="og:title" content='Memories Lounge Bar' />
    <meta property="og:image" content='https://i.ibb.co/8MNcnfL/resized-image-Promo.jpg' />
    <meta property="og:description" content='Food, Drinks, and Beauiful Memories/'>
@@ -33,11 +34,12 @@
    <!-- header section starts     -->
    <section class="header">
 
-      <a href="#memories" class="logo"> <i class="fas fa-utensils"></i> Memories Lounge</a>
+      <a href="index.html" class="logo"> <i class="fas fa-utensils"></i> Memories Lounge</a>
       <nav class="navbar">
          <a href="#home">Home</a>
          <a href="#menu">Menu</a>
          <a href="#food">Ditore</a>
+         <a href="events.html">Eventet</a>
          <a href="index_en.html">English</a>
       </nav>
 
@@ -601,7 +603,7 @@
             </div>
 
             <div class="swiper-slide slide" data-name="food-3">
-               <img src="images/menu-pizza.JPG" alt="">
+               <img src="images/menu-pizza.jpg" alt="">
                <h3>Picë shtëpie</h3>
                <h2>kliko për më shumë</h2>
             </div>
@@ -613,7 +615,7 @@
             </div>
 
             <div class="swiper-slide slide" data-name="food-5">
-               <img src="images/menu-qofte.JPG" alt="">
+               <img src="images/menu-qofte.jpg" alt="">
                <h3>Qofte në tavë</h3>
                <h2>kliko për më shumë</h2>
             </div>
@@ -668,76 +670,35 @@
          <div class="price">3.50 euro</div>
       </div>
 
+
    </section>
 
-   <div class="our-menu-food">
-      <h1>Darkë Memories - 4 persona</h1>
-      <div class="main-menu-food">
-         <div class="inner-menu-food">
-            <div class="menu-food-content">
-               <img src="images/menu40_1.JPG" alt="">
-            </div>
-         </div>
-         <div class="inner-menu-food">
-            <div class="menu-food-content">
-               <img src="images/menu40_2.JPG" alt="">
+   <section class="darka" id="darka">
 
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
             </div>
-         </div>
-         <div class="menu-food-text">
-            <p>Mish viçi, pleskavicë, suxhuk shtëpije, file pule, kërpudha të fërguara, perime, sos, pogaqe shtëpie,
-               lëng shtëpie.</p>
-            <p> <span>Cmimi: 40 euro</span> </p>
          </div>
       </div>
-   </div>
-   </div>
-   </div>
-
-
-   <div class="our-menu-food">
-      <!-- <h1>Darkë Memories - 4 persona</h1> -->
-      <div class="main-menu-food">
-         <div class="inner-menu-food">
-            <div class="menu-food-content">
-               <img src="images/menu70_1.JPG" alt="">
+      <a href="darka.html"
+      class="mkd-btn mkd-btn-medium mkd-btn-solid mkd-btn-custom-hover-bg mkd-btn-custom-border-hover mkd-btn-custom-hover-color"
+      data-hover-color="#ffffff" data-hover-bg-color="#faa61a" data-hover-border-color="#faa61a">
+      <span class="darka-btn">DARKAT SPECIALE</span>
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
             </div>
-         </div>
-         <div class="inner-menu-food">
-            <div class="menu-food-content">
-               <img src="images/menu70_2.JPG" alt="">
-
-            </div>
-         </div>
-         <div class="menu-food-text">
-            <p>Ramstek, biftek, suxhuk shtëpie, brinjë viçi, perime, patate të skuqura, pogaqe shtëpie, perime të fërguara, sos shtëpie, lëng shtëpie.</p>
-            <p> <span>Cmimi: 70 euro</span> </p>
          </div>
       </div>
-   </div>
-   </div>
-   </div>
+      <br>
+      <a href="events.html"
+      class="mkd-btn mkd-btn-medium mkd-btn-solid mkd-btn-custom-hover-bg mkd-btn-custom-border-hover mkd-btn-custom-hover-color"
+      data-hover-color="#ffffff" data-hover-bg-color="#faa61a" data-hover-border-color="#faa61a">
+      <span class="darka-btn">EVENTET</span>
+   </section>
 
-   <div class="our-menu-food">
-      <h1>Brinjë viçi</h1>
-      <div class="main-menu-food">
-         <div class="inner-menu-food">
-            <div class="menu-food-content">
-               <img src="images/brinje.JPG" alt="">
-            </div>
-         </div>
-         <div class="menu-food-text">
-            <p>Brinjë viçi, patate, sos.</p>
-            <p> <span>Cmimi: 15 euro</span> </p>
-         </div>
-      </div>
-   </div>
-   </div>
-   </div>
-
-   <!-- scroll reveal javascript link -->
-
-   <script src="https://unpkg.com/scrollreveal"></script>
+ 
 
    <!-- order section -->
 
@@ -797,8 +758,8 @@
          <div class="icons">
             <i class="fas fa-map"></i>
             <h3>Adresa</h3>
-            <p><a href="https://goo.gl/maps/vtYeCSuDF7tocT5T7"
-                  target="_blank" rel="noopener noreferrer">Rr. Besëlidhja - Prishtinë</a></p>
+            <p><a href="https://goo.gl/maps/vtYeCSuDF7tocT5T7" target="_blank" rel="noopener noreferrer">Rr. Besëlidhja
+                  - Prishtinë</a></p>
          </div>
 
       </div>
@@ -826,10 +787,20 @@
 
    <!-- custom js file link  -->
    <script src="js/script.js"></script>
+   <script src="js/jquery-1.12.4.min.js"></script>
+   <script src="js/jquery.flexslider-min.js"></script>
+   <script>
+      $(window).load(function () {
+         $('.flexslider').flexslider({
+            animation: "slide"
+         });
+      });
+   </script>
 
    <script>
       lightGallery(document.querySelector('.gallery .gallery-container'));
    </script>
+   
 </body>
 
 </html>
