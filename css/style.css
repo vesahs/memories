@@ -619,16 +619,16 @@ h2 {
    font-size: 2rem;
 }
 
-/* featured album */
+/* event album */
 
-.featured .featured-item {
+.event .event-item {
    max-width: 450px;
    margin: 0 auto;
    margin-top: 30px;
    padding-bottom: 30px;
 }
 
-.featured .featured-item .figure {
+.event .event-item .figure {
    float: left;
    display: flex;
    justify-content: center;
@@ -636,7 +636,7 @@ h2 {
    padding: 5px;
 }
 
-.featured .featured-item .figure p {
+.event .event-item .figure p {
    position: absolute;
    bottom: 0;
    right: 0;
@@ -657,12 +657,12 @@ h2 {
    transition: all 0.5s ease-out;
 }
 
-.featured .featured-item:hover .figure p {
+.event .event-item:hover .figure p {
    opacity: 1;
    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
-.featured-item .featured-item-info h4 {
+.event-item .event-item-info h4 {
    margin-top: 30px;
    font-size: 28px;
    line-height: 40px;
@@ -671,13 +671,13 @@ h2 {
    text-transform: uppercase;
 }
 
-.featured-item .featured-item-info hr {
+.event-item .event-item-info hr {
    max-width: 60px;
    margin: 20px auto;
    border-top: 4px solid #ddd;
 }
 
-.featured-item .featured-item-info p {
+.event-item .event-item-info p {
    font-size: 16px;
    font-weight: 700;
    text-align: center;
@@ -728,7 +728,7 @@ h2 {
 .default-heading-shadow h2 {color: #fff;}
 
 
-.coming-events .why-content .why-message {
+.coming-events .coming-content .coming-message {
 	padding-bottom: 30px;
    color: #FFFEF7;
 	font-size: 22px;
@@ -736,12 +736,12 @@ h2 {
 	text-align: center;
 }
 
-.coming-events .why-content .apply-btn {
+.coming-events .coming-content .apply-btn {
 	margin-top: 60px;
 	text-align: center;
 }
 
-.coming-events .why-content .why-item {
+.coming-events .coming-content .coming-item {
 	max-width: 450px;
 	margin: 0 auto;
 	margin-top: 30px;
@@ -750,7 +750,7 @@ h2 {
    
 }
 
-.why-content .why-item .why-number {
+.coming-content .coming-item .coming-number {
 	display: block;
 	margin-bottom: 10px;
 	color: #fff;
@@ -760,7 +760,7 @@ h2 {
 	line-height: 1;
 }
 
-.why-content .why-item p {color: #fff;}
+.coming-content .coming-item p {color: #fff;}
 
 .footer {
    text-align: center;
@@ -889,7 +889,7 @@ h2 {
    }
 }
 
-.featured .featured-item .figure p {
+.event .event-item .figure p {
    opacity: 0.8;
    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
