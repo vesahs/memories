@@ -544,9 +544,6 @@ h2 {
    object-fit: cover;
 }
 
-.events {
-   background-color: var(--black);
-}
 
 .order {
    background-color: #bf854d;
@@ -621,6 +618,10 @@ h2 {
 
 /* event album */
 
+.events {
+   background-color: var(--black);
+}
+
 .event .event-item {
    max-width: 450px;
    margin: 0 auto;
@@ -683,84 +684,91 @@ h2 {
    text-align: center;
 }
 
-.default-heading h2,
-.default-heading-shadow h2 {
-    border: 2px solid #bf854d;
+.coming-heading h2,
+.coming-heading-shadow h2 {
+   border: 2px solid #bf854d;
+
 }
 
-.default-heading h2:after,
-.default-heading-shadow h2:after {
-    border-top-color: #bf854d;
+.coming-heading h2:after,
+.coming-heading-shadow h2:after {
+   border-top-color: #bf854d;
 }
 
-.default-heading,
-.default-heading-shadow {
-	text-align: center;
-	margin-bottom: 40px;
+.coming-heading,
+.coming-heading-shadow {
+   text-align: center;
+   margin-bottom: 40px;
 }
 
-.default-heading h2,
-.default-heading-shadow h2 {
-	position: relative;
-	display: inline-block;
+.coming-heading h2,
+.coming-heading-shadow h2 {
+   position: relative;
+   display: inline-block;
    color: #FFFEF7;
-	margin-top: 0;
-	margin-bottom: 30px;
-	padding: 25px 30px;
-	font-size: 30px;
-	text-transform: uppercase;
+   margin-top: 0;
+   margin-bottom: 30px;
+   padding: 25px 30px;
+   font-size: 30px;
+   text-transform: uppercase;
 }
 
-.default-heading h2:after,
-.default-heading-shadow h2:after{
-	top: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(240, 253, 255, 0);
-	border-width: 20px;
-	margin-left: -20px;
+.coming-heading h2:after,
+.coming-heading-shadow h2:after {
+   top: 100%;
+   left: 50%;
+   border: solid transparent;
+   content: " ";
+   height: 0;
+   width: 0;
+   position: absolute;
+   pointer-events: none;
+   border-color: rgba(240, 253, 255, 0);
+   border-width: 20px;
+   margin-left: -20px;
 }
-.default-heading-shadow h2 {color: #fff;}
+
+.coming-heading-shadow h2 {
+   color: #fff;
+}
 
 
 .coming-events .coming-content .coming-message {
-	padding-bottom: 30px;
+   padding-bottom: 30px;
    color: #FFFEF7;
-	font-size: 22px;
-	line-height: 32px;
-	text-align: center;
+   font-size: 22px;
+   line-height: 32px;
+   text-align: center;
 }
 
 .coming-events .coming-content .apply-btn {
-	margin-top: 60px;
-	text-align: center;
+   margin-top: 60px;
+   text-align: center;
 }
 
 .coming-events .coming-content .coming-item {
-	max-width: 450px;
-	margin: 0 auto;
-	margin-top: 30px;
-	padding: 20px 25px; 
-	background: var(--black);
-   
+   max-width: 450px;
+   margin: 0 auto;
+   margin-top: 30px;
+   padding: 20px 25px;
+   background: var(--black);
+
 }
 
 .coming-content .coming-item .coming-number {
-	display: block;
-	margin-bottom: 10px;
-	color: #fff;
-	font-family: 'Renner*', sans-serif;
-	font-size: 35px;
-	font-weight: 700;
-	line-height: 1;
+   display: block;
+   margin-bottom: 10px;
+   color: #fff;
+   font-family: 'Renner*', sans-serif;
+   font-size: 35px;
+   font-weight: 700;
+   line-height: 1;
 }
 
-.coming-content .coming-item p {color: #fff;}
+.coming-content .coming-item p {
+   color: #fff;
+}
+
 
 .footer {
    text-align: center;
