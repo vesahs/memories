@@ -544,6 +544,66 @@ h2 {
    object-fit: cover;
 }
 
+.our-offers {
+   padding: 2rem 7%;
+   background-color: var(--black);
+}
+
+.our-offers h1 {
+   color: var(--peru);
+   font-size: 45px;
+   text-align: center;
+   padding: 0.5rem 0;
+}
+
+.main-offers {
+   margin-top: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+.inner-offers {
+   flex: 1 1 300px;
+}
+
+.offers-content {
+   width: 107%;
+}
+
+.offers-content img {
+   float:center;
+   display: flex;
+   justify-content: center;
+   width: 90%;
+   padding: 30px;
+}
+.our-offers-text {
+   padding: 2rem 2rem;
+}
+
+.our-offers-text h2 {
+   color: black;
+   font-size: 30px;
+   text-align: center;
+}
+
+.our-offers-text p {
+   color: white;
+   font-size: 20px;
+   margin: 2rem 0;
+   text-align: center;
+}
+
+.-our-offers-text p span {
+   color: black;
+   padding: 0.5rem 1.5rem;
+   transition: 0.3s;
+   cursor: pointer;
+   text-align: center;
+}
 
 .order {
    background-color: #bf854d;
